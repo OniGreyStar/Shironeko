@@ -1,8 +1,10 @@
 package shiro.neko.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 @Entity
+@Data
 public class Book {
 
     @Id
